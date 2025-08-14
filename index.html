@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>
+                <img src="/IMG_20250814_220055_940.jpg" alt="Workout Image" width="100" height="100px">
+            </td>
+            <td>
+                <p>
+                    Lorem ipsum dolor sit <u style="text-decoration-style: wavy; text-decoration-color: red;">amet, consectetur adipiscing elit</u><br>
+                    Maecenas <u style="text-decoration-style: wavy; text-decoration-color: red;">molestie tincidunt bibendum</u>.<br>
+                    <u style="text-decoration-style: wavy; text-decoration-color: red;">Praesent placerat tellus</u> nisi, <u style="text-decoration-style: wavy; text-decoration-color: red;">eu ornare</u> eros <u style="text-decoration-style: wavy; text-decoration-color: red;">ultrices</u><br> et. 
+                    Nam <u style="text-decoration-style: wavy; text-decoration-color: red;">suscipit</u> non ipsum at semper. <u style="text-decoration-style: wavy; text-decoration-color: red;">Vivamus</u>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form>
+                    <table>
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" id="name" name="name"></td>
+                            <td rowspan="4" valign="top">
+                                <label>Gender:</label><br>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label><br>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label><br><br>
+
+                                <label>Hobbies:</label><br>
+                                <input type="checkbox" id="swimming" name="hobbies" value="Swimming">
+                                <label for="swimming">Swimming</label><br>
+                                <input type="checkbox" id="biking" name="hobbies" value="Biking">
+                                <label for="biking">Biking</label><br>
+                                <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                                <label for="reading">Reading</label><br>
+                                <input type="checkbox" id="watching" name="hobbies" value="Watching TV">
+                                <label for="watching">Watching TV</label><br>
+                                <input type="checkbox" id="playing" name="hobbies" value="Playing">
+                                <label for="playing">Playing</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">Address:</label></td>
+                            <td><input type="text" id="address" name="address"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email-Ad:</label></td>
+                            <td><input type="email" id="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="contact">Contact Number:</label></td>
+                            <td><input type="text" id="contact" name="contact"></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
